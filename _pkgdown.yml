@@ -1,0 +1,43 @@
+url: ~
+template:
+  bootstrap: 5
+reference:
+- title: Main Functions
+  desc:  Command Line Functionalities for Interactive Usgae
+- subtitle: extRactoR
+  desc: Extract Information from Gaussian log files
+- contents:
+  - starts_with("extRactoR")
+- subtitle: unwRapper
+  desc: Utilize compressed .feather files
+- contents:
+  - starts_with("unwRapper")
+- subtitle: moleculaR
+  desc: Extract and Compute Complete Data Sets
+- contents:
+  - starts_with("moleculaR")
+- title: User Functions - Features
+  desc:  Command Line Functionalities for Interactive Usgae
+- contents:
+  - ends_with(".multi")
+  - ends_with(".df")
+  - starts_with("cube.sterimol")
+  - starts_with("xyz.from.cube")
+  - starts_with("plot_molecule")
+- title: User Functions - modeling
+  desc:  Command Line Functionalities for Modeling
+- contents:
+  - starts_with("model")
+  - starts_with("stratified")
+  - starts_with("mod.info")
+  - starts_with("ct.plot")
+  - starts_with("prob.heatmap")
+  - starts_with("simi.sampler")
+- title: User Functions - Utilities
+  desc:  Command Line Functionalities for File Manipulation
+- contents:
+  - starts_with("coor.trans")
+  - starts_with("extract.connectivity")
+  - starts_with("name_changer")
+
+
