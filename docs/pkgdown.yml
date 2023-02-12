@@ -1,0 +1,10 @@
+pandoc: 2.19.2
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  Command_Line_Usage: Web_Only/Command_Line_Usage.html
+  Cube_Functions: Web_Only/Cube_Functions.html
+  Getting_Started_with_Examples: Web_Only/Getting_Started_with_Examples.html
+  Modeling: Web_Only/Modeling.html
+last_built: 2023-02-12T10:37Z
+
