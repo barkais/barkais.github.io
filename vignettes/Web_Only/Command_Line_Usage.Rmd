@@ -297,7 +297,7 @@ dip.gaussina.multi('1 2 3', T)
 dip.gaussian.multi(coor_atoms = '1 2 3',
                 center_of_mass = F, 
                 center_of_mass_substructure = T,
-                sub_atoms = '3 4 5 6 7 8')
+                subunits_inputs_vector = '3 4 5 6 7 8')
 
 # implicitly 
 dip.gaussina.multi('1 2 3', F, T, '3 4 5 6 7 8')
@@ -310,7 +310,7 @@ dip.gaussina.multi('1 2 3', F, T, '3 4 5 6 7 8')
 dip.gaussian.multi(coor_atoms = '1 2 3',
                 center_of_mass = F, 
                 center_of_mass_substructure = T,
-                sub_atoms = c('3 4 5 6 7 8', '1 2 3'))
+                subunits_inputs_vector = c('3 4 5 6 7 8', '1 2 3'))
 
 # implicitly 
 dip.gaussina.multi('1 2 3', F, T, c('3 4 5 6 7 8', '1 2 3'))
